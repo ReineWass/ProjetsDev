@@ -1,0 +1,36 @@
+.container{
+display: grid;
+gap: 10px 10px;
+grid-template-columns: 20% 60% 20%;
+grid-template-rows: 20% 20% 500px 20%;
+grid-template-areas: 
+"A A A"
+"E B F"
+"E C F"
+"D D D"
+;
+}
+.A{
+background-color: red;
+grid-area: A;
+}
+.B{
+background-color: blue;
+grid-area: B;
+}
+.C{
+background-color: rgb(238, 219, 195);
+grid-area: C;
+}
+.D{
+background-color: aqua;
+grid-area: D;
+}
+.E{
+background-color: green;
+grid-area: E;
+}
+.F{
+background-color: yellow;
+grid-area: F;
+}

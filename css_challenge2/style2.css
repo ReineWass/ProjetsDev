@@ -1,0 +1,37 @@
+body{
+    background: #F3AC3C;
+    margin: 0px;
+    margin-left: 0px;
+    width: auto;
+    height: 800px;
+    align-items: end;
+    align-content: space-around;
+    justify-content: center;
+    display: grid;
+    justify-items: stretch;
+}
+.Grandbox{
+    width:200px;
+    height:200px;
+    background:#1A4341;
+    margin-left: 50;
+    position: absolute;
+     
+}
+.Moyenbox{
+    width:100px;
+    height:100px;
+    background:#998235;
+    left: 50px;
+    position: absolute;
+    bottom: 0px;
+}
+.petitbox{
+    width:50px;
+    height:50px;
+    background:#F3AC3C;
+    top: 50%;
+    left: 25px;  
+    position: relative;
+   
+}

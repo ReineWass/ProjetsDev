@@ -1,0 +1,27 @@
+
+body{ background-color: #f3ac3c;/*couleur d'arrière plan*/
+    width: auto; /*largeur automatique*/
+    height: 1000px;/*longueur*/
+    display: grid;
+    align-items: end;
+    align-content: space-around;
+    justify-content: center;
+    justify-items: stretch;}
+    
+    .box1{ background-color:#1A4341;
+        width:200px;
+        height:200px;
+    }
+    .box2{background-color:#998235;
+        width:100px;
+        height:100px;
+        position: relative;
+        top:100px ;
+        left: 50;    }
+    .box3{ background-color:#F3AC3C;
+        width:50px;
+        position: relative;
+        top: 50px;
+        left: 25px;
+        height:50px;
+}
